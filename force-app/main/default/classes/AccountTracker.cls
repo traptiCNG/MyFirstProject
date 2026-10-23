@@ -4,7 +4,7 @@ public with sharing class AccountTracker {
         return [
             SELECT Id, Name, Industry
             FROM Account
-            WHERE Industry != null
+            WHERE Industry = null 
             LIMIT 30
         ];
     }
