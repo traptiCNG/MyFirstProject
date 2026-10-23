@@ -5,7 +5,7 @@ public with sharing class AccountTracker {
             SELECT Id, Name, Industry
             FROM Account
             ORDER BY CreatedDate DESC
-            LIMIT 10
+            LIMIT 30
         ];
     }
 }
