@@ -1,3 +1,5 @@
+// this class is used for account creation
+
 Public class AccountCreation {
    Public void createAccount(String name){
       Account a= new Account();
@@ -8,7 +10,7 @@ Public class AccountCreation {
 System.debug(a.name);
        
        
-    //  return a;
+     return a;
    }
     Public String Name;
 }
